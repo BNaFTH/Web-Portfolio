@@ -1,3 +1,9 @@
+---
+import Header from "../components/header.astro";
+import '../css/style.css';
+---
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,21 +19,7 @@
 </head>
 <body>
 
-	<header class="header">
-		<a href="/" class="logo">Portfolio.</a>
-
-
-		<nav class="navbar">
-			<a href="#home" class="active">Home</a>
-			<a href="#about">About</a>
-			<a href="#skills">Skills</a>
-			<a href="#portfolio">Portfolio</a>
-			<a href="#contact">Contact</a>
-		</nav>
-
-		<div class="bx bx-moon" id="darkMode-icon"></div>
-		<div class="bx bx-menu" id="menu-icon"></div>
-	</header>
+	<Header/>
 
 	<!--home section design -->
 	<section class="home" id="home">
@@ -73,7 +65,7 @@
 		</div>
 
 		<div class="home-img">
-			<img src="../src/image/gojo.png" alt="">
+			<img src="../image/gojo.png" alt="">
 		</div>
 	</section>
 
