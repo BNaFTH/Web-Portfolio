@@ -489,3 +489,108 @@ span {
 	font-size: 2.4rem;
 	color: #333;
 }
+
+@media (max-width: 1200px) {
+	html {
+		font-size: 55%;
+	}
+
+	.home .profession-container {
+		height: 85.8rem;
+	}
+
+	.home .profession-container .profession-box {
+		right: -12rem;
+		height: 85.8rem;
+	}
+
+	.home .profession-container .overlay {
+		right: -9rem;
+	}
+}
+
+@media (max-width: 1024px) {
+	.header {
+		padding: 2rem 3%;
+	}
+
+	section {
+		padding: 10rem 3% 2rem;
+	}
+
+	.home .profession-container .profession-box {
+		right: -22rem;
+	}
+
+	.home .profession-container .overlay {
+		right: -15rem;
+	}
+}
+
+@media (max-width: 991px) {
+
+	.navbar a:nth-child(1),
+	.navbar a:nth-child(2) {
+		color: var(--main-color);
+	}
+
+	.navbar a.active::before {
+		background: var(--main-color);
+		opacity: .7;
+	}
+
+	.home .home-content {
+		max-width: 50rem;
+	}
+
+	.home .profession-container .profession-box {
+		right: -45rem;
+	}
+
+	.home .profession-container .overlay {
+		right: -39.5rem;
+	}
+
+	.home-img img {
+		display: none;
+	}
+
+	.skills,
+	.portfolio {
+		padding-bottom: 7rem;
+	}
+	
+	.contact {
+		min-height: auto;
+	}
+
+	.footer {
+		padding: 2rem 3%;
+	}
+}
+
+@media (max-width: 768px) {
+	#menu-icon {
+		display: block;
+	}
+
+	.navbar a:nth-child(3),
+	.navbar a:nth-child(4),
+	.navbar a:nth-child(5) {
+		color: var(--main-color);
+	}
+
+
+	.navbar {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		padding: 1rem 3%;
+		background: var(--bg-color);
+		border-top: .1rem solid rgba(0,0,0,.2);
+		box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+	}
+
+} 
+
