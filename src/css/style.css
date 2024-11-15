@@ -266,8 +266,8 @@ section {
 
 .home-img img {
 	position: absolute;
-	bottom: 10rem;
-	right: 11rem;
+	bottom: 0rem;
+	right: 9rem;
 	width: 27%;
 	pointer-events: none;
 }
@@ -284,7 +284,7 @@ span {
 }
 
 .about-img img {
-	width: 40vw;
+	width: 20vw;
 }
 
 .heading {
